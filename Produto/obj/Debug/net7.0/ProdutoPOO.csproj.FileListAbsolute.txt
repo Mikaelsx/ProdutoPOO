@@ -1,0 +1,15 @@
+C:\Users\51915337801\Desktop\ProdutoPOO\bin\Debug\net7.0\ProdutoPOO.exe
+C:\Users\51915337801\Desktop\ProdutoPOO\bin\Debug\net7.0\ProdutoPOO.deps.json
+C:\Users\51915337801\Desktop\ProdutoPOO\bin\Debug\net7.0\ProdutoPOO.runtimeconfig.json
+C:\Users\51915337801\Desktop\ProdutoPOO\bin\Debug\net7.0\ProdutoPOO.dll
+C:\Users\51915337801\Desktop\ProdutoPOO\bin\Debug\net7.0\ProdutoPOO.pdb
+C:\Users\51915337801\Desktop\ProdutoPOO\obj\Debug\net7.0\ProdutoPOO.csproj.AssemblyReference.cache
+C:\Users\51915337801\Desktop\ProdutoPOO\obj\Debug\net7.0\ProdutoPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\51915337801\Desktop\ProdutoPOO\obj\Debug\net7.0\ProdutoPOO.AssemblyInfoInputs.cache
+C:\Users\51915337801\Desktop\ProdutoPOO\obj\Debug\net7.0\ProdutoPOO.AssemblyInfo.cs
+C:\Users\51915337801\Desktop\ProdutoPOO\obj\Debug\net7.0\ProdutoPOO.csproj.CoreCompileInputs.cache
+C:\Users\51915337801\Desktop\ProdutoPOO\obj\Debug\net7.0\ProdutoPOO.dll
+C:\Users\51915337801\Desktop\ProdutoPOO\obj\Debug\net7.0\refint\ProdutoPOO.dll
+C:\Users\51915337801\Desktop\ProdutoPOO\obj\Debug\net7.0\ProdutoPOO.pdb
+C:\Users\51915337801\Desktop\ProdutoPOO\obj\Debug\net7.0\ProdutoPOO.genruntimeconfig.cache
+C:\Users\51915337801\Desktop\ProdutoPOO\obj\Debug\net7.0\ref\ProdutoPOO.dll
