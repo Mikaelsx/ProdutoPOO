@@ -34,30 +34,39 @@ namespace ProdutoPOO
                 Preco = float.Parse(Console.ReadLine()!);
 
                 Console.WriteLine($"Produto cadastrado com sucesso"); 
+
+                List<Produto> ListaProdutos = new List<Produto>();
         }
 
         public void Listar()
         {
             if(ListaProdutos.Count > 0)
             {
-                foreach (Produto p in ListaProdutos)
+                foreach (Produto item in ListaProdutos)
                 {
-Console.WriteLine(@$"
-Códido: {p.Codigo}
-Nome: {p.NomeProduto}
-Preço: {p.Preco}");
-Console.WriteLine($"");  
+                    Console.WriteLine($"{item.NomeProduto}");
+                    Console.WriteLine($"{item.Codigo}");
+                    Console.WriteLine($"{item.Preco}");
+                    
                 }
+            }
+
+            else
+            {
+                Console.WriteLine($"Erro, não há nada cadastrado.");
+                
             }
         }
 
-        public void Deletar()
+        public string Deletar(int codigo)
         {
-            // this.Codigo = "";
-            // this.Preco = "";
-            // this.NomeProduto = "";
-            // Console.WriteLine($"Produto apagado");
-            
+            // Console.WriteLine($"Qual o código do produto que será excluido ?");
+            codigo = int.Parse(Console.ReadLine()!);
+
+            Produto produto = ListaProdutos.Find(x => x.Codigo == codigo)!;
+
+            ListaProdutos.Remove(produto);
+            return "Produto removido";
         }
     }
 }

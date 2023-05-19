@@ -13,7 +13,7 @@ namespace ProdutoPOO
 
         public DateTime DataCadastro {get; set;}
 
-        public int resposta {get; set;}
+        // public int resposta {get; set;}
 
         List<Marca> ListaMarcas = new List<Marca>();
 
@@ -30,12 +30,29 @@ namespace ProdutoPOO
 
         public void Listar()
         {
+           if (ListaMarcas.Count > 0)
+           {
+             foreach (var item in ListaMarcas)
+            {
+                Console.WriteLine($"{item.NomeMarca}");
+                Console.WriteLine($"{item.Codigo}");
+                Console.WriteLine($"{item.DataCadastro}");
+            }
+           }
 
+           else
+           {
+
+           }
         }
 
-        public void Deletar()
+        public void Deletar(int cod)
         {
-            
+            // Console.WriteLine($"Qual o código da marca que será excluida ?");
+            cod = int.Parse(Console.ReadLine()!);
+            Marca marca = ListaMarcas.Find(x => x.Codigo == cod)!;
+
+            ListaMarcas.Remove(marca);
         }
     }
 }
